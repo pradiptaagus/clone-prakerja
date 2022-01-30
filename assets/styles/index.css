@@ -1,0 +1,48 @@
+.nav .logo img {
+  width: auto;
+  height: 45px;
+}
+
+.nav {
+  padding: 40px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .nav-parent {
+  display: inline-block;
+}
+
+.nav .nav-parent .nav-item {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.nav .nav-parent .nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav .nav-parent .nav-item .btn {
+  display: inline-block;
+  font-weight: 700;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 40px;
+  padding: 10px 22px;
+  line-height: 20px;
+  border-style: solid;
+  font-size: 14px;
+}
+
+.nav .nav-parent .nav-item .btn-login {
+  border-color: white;
+  margin-right: 10px;
+}
+
+.nav .nav-parent .nav-item .btn-register {
+  background-color: #ff7d2a;
+  border-color: #ff7d2a;
+}
